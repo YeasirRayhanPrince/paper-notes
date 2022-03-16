@@ -2,8 +2,7 @@
 
 <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 	<tbody>
-    <tr style = "border: no">
-    
+    <tr>
         <td> ⌘ ☛ Tags </td>
         <td> <i>
         <color:red>SIMD</color> Prefetching
