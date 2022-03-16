@@ -20,8 +20,11 @@ For in-memory indexes memory access is the new bottleneck because of the gap bet
 # Takeaways
 * To improve the cache behavior of an index, reduce the height of thre tree, i.e., increase the fan out of thre tree. (not applicable for R-tree since the keys of a R-tree node is much larger: eliminating only chlid pointers will not be able to free up enough space to pack more entries in a node)
     * eliminate child pointers from a node
-    * setg node size = n * cache block size  
+    * set node size = n * cache block size  
 
 
-
+# Details
+Desiderata for MBR compression:
+- Overlap check without decompression: To check the overlap between the query rectangle and a MBR DO NOT DECOMPRESS the compressed MBR. Rather COMPRESS the query rectangle ONE-TIME for overlap checks
+- Simplicity: It should be computationally LIGHTWEIGHT and shold be performed with the CACHED data
 
