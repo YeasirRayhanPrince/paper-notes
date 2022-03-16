@@ -2,10 +2,11 @@
 
 <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 	<tbody>
-    <tr>
-        <td> Tags </td>
+    <tr style = "border: no">
+    
+        <td> ⌘ ☛ Tags </td>
         <td> <i>
-        SIMD Prefetching
+        <color:red>SIMD</color> Prefetching
         </i>
         </td>
     </tr>
@@ -44,7 +45,6 @@
     </tr>
     </tbody>
 </table>
-
 
 Tags   
 Authors  
