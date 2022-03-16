@@ -8,8 +8,13 @@
 ⏳    **Status**                Not Complete  
 🔗    **Paper**                https://par.nsf.gov/servlets/purl/10066914  
 
-## Takeaways
+## Why?
+The most important performance criteria for an in-memory dbms is: (disk accesses are no longer the bottleneck)
+1. Cache misses to memory 
+2. Computational throughput
 
+## What?
+They combine ==SIMD== and ==Prefetch== instructions to tackle the case of cache misses and computational throughput
 
 ## Topics to discuss
 
