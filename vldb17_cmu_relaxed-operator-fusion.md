@@ -2,10 +2,10 @@
 
 🔎    **Tags**                 SIMD    Prefetching  
 🧟    **Authors**              Prashanth Menon    Todd C. Mowry    Andrew Pavlo    
-🚏    **Venue**                VLDB   
+🚏    **Venue**                VLDB   
 📅    **Year**                 2017   
 🕦    **Created**              March 15, 2022  
 ⏳    **Status**               Not Complete  
-🔗    **Paper**                https://par.nsf.gov/servlets/purl/10066914  
+🔗    **Paper**                https://par.nsf.gov/servlets/purl/10066914  
 
 
